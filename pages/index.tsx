@@ -1,5 +1,8 @@
 import type { NextPage } from 'next'
 import Header from '../components/header'
+import Trending from '../components/Trending'
+import CMCTABLE from '../components/cmc/CMCTABLE'
+
 
 
 const Home: NextPage = () => {
@@ -7,9 +10,9 @@ const Home: NextPage = () => {
     <div className='min-h-screen'>
       <Header />
       <div className='min-10'></div>
-      {/*trending*/}
+      <Trending />
       <div className='min-20'></div>
-      {/*CMCTABLE*/}
+      <CMCTABLE />
      
     </div>
   )
